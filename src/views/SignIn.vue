@@ -1,45 +1,35 @@
 <template>
-    <div class="flex border-4 h-screen">
-        <div class="border w-1/2 flex items-center justify-center" id="kiri">
-            <h1>tes</h1>
+    <div class="flex h-screen">
+        <div class="w-1/2 flex items-center justify-center bg-blue-100">
+            <h1 class="text-4xl font-bold text-blue-600">Si Bocah Aksara</h1>
         </div>
-
-        <div class="border w-1/2 flex flex-col items-center justify-center" id="kanan">
-            <h1 class="justify-center">Sign In Page</h1>
-            <div>
-                <h1>Parent Profile</h1>
-                <div class="relative mt-2 rounded-md shadow-sm w-full2">
+        <div class="w-1/2 flex flex-col items-center justify-center bg-white">
+            <form class="w-full max-w-sm p-8 bg-gray-50 rounded-lg shadow-md">
+                <h1 class="text-2xl font-semibold text-center mb-6 text-gray-700">Parent Profile</h1>
+                <div class="mb-4">
                     <input type="text" name="email" id="email"
-                        class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        class="block w-full rounded-md border border-gray-300 py-2 px-4 text-gray-900 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                         placeholder="E-mail">
                 </div>
-    
-                <div class="relative mt-2 rounded-md shadow-sm w-full">
+                <div class="mb-6">
                     <input type="password" name="password" id="password"
-                        class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        class="block w-full rounded-md border border-gray-300 py-2 px-4 text-gray-900 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                         placeholder="Password">
                 </div>
-            </div>
-
-            <div>
-                <h1>Child Profile</h1>
-                <div class="relative mt-2 rounded-md shadow-sm w-full">
+                <h1 class="text-2xl font-semibold text-center mb-6 text-gray-700">Child Profile</h1>
+                <div class="mb-4">
                     <input type="text" name="namaAnak" id="namaAnak"
-                        class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        class="block w-full rounded-md border border-gray-300 py-2 px-4 text-gray-900 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                         placeholder="Nama Anak">
                 </div>
-    
-                <div class="relative mt-2 rounded-md shadow-sm w-full">
+                <div class="mb-6">
                     <input type="number" name="umurAnak" id="umurAnak"
-                        class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                        class="block w-full rounded-md border border-gray-300 py-2 px-4 text-gray-900 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                         placeholder="Umur Anak">
                 </div>
-            </div>
-            <button class="border rounded-full mt-4 py-2 px-8">Login</button>
-
-            <h1 class="mt-4">Belum punya akun? <RouterLink to="/sign-in" class="text-blue-500 underline">Sign In
-                </RouterLink>
-            </h1>
+                <button type="submit" class="w-full bg-indigo-600 text-white py-2 rounded-md font-semibold hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Sign In</button>
+                <p class="mt-6 text-center text-gray-600">Sudah punya akun? <RouterLink to="/login" class="text-indigo-500 underline">Login</RouterLink></p>
+            </form>
         </div>
     </div>
 </template>

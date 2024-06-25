@@ -28,7 +28,7 @@ const routes = [
     // Halaman Mengenal Huruf
     { path: '/lessons/mengenal-huruf', component: MengenalHurufView },
     { path: '/lessons/mengenal-huruf/a', component: MengenalHurufAView },
-    { path: '/lessons/mengenal-huruf/a/detail-gambar-1', component: MengenalHurufADetailGambarView },
+    { path: '/lessons/mengenal-huruf/a/detail-gambar-1' , component: MengenalHurufADetailGambarView },
     { path: '/lessons/mengenal-huruf/a/mini-game', component: MengenalHurufAMiniGameView },
 
     // Halaman Belajar Membaca
