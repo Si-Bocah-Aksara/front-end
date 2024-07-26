@@ -18,23 +18,23 @@
         <div class="grid grid-cols-2 gap-4 mb-8">
             <RouterLink to="/lessons/mengenal-huruf/a/detail-gambar-1"
                 class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                <img src="#" alt="Gambar 1" class="w-full h-40 object-cover">
-                <div class="p-4 text-center text-xl font-bold text-gray-700">Gambar 1</div>
+                <img src="../assets/mengenalHuruf/ayam.jpg" alt="Gambar 1" class="w-full h-40 object-cover">
+                <div class="p-4 text-center text-xl font-bold text-gray-700">Ayam</div>
             </RouterLink>
             <div
                 class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                <img src="#" alt="Gambar 2" class="w-full h-40 object-cover">
-                <div class="p-4 text-center text-xl font-bold text-gray-700">Gambar 2</div>
+                <img src="../assets/mengenalHuruf/apel.jpg" alt="Gambar 2" class="w-full h-40 object-cover">
+                <div class="p-4 text-center text-xl font-bold text-gray-700">Apel</div>
             </div>
             <div
                 class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                <img src="#" alt="Gambar 3" class="w-full h-40 object-cover">
-                <div class="p-4 text-center text-xl font-bold text-gray-700">Gambar 3</div>
+                <img src="../assets/mengenalHuruf/api.jpg" alt="Gambar 3" class="w-full h-40 object-cover">
+                <div class="p-4 text-center text-xl font-bold text-gray-700">Api</div>
             </div>
             <div
                 class="bg-white rounded-lg shadow-md overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out">
-                <img src="#" alt="Gambar 4" class="w-full h-40 object-cover">
-                <div class="p-4 text-center text-xl font-bold text-gray-700">Gambar 4</div>
+                <img src="../assets/mengenalHuruf/awan.jpg" alt="Gambar 4" class="w-full h-40 object-cover">
+                <div class="p-4 text-center text-xl font-bold text-gray-700">Awan</div>
             </div>
         </div>
 

@@ -1,12 +1,10 @@
 <template>
     <div class="flex flex-col items-center bg-gray-100 h-screen p-4">
-        <h1 class="text-4xl font-bold text-gray-800 mb-4">DETAIL GAMBAR 1</h1>
 
         <!-- Section for the image and description -->
         <div class="text-center mb-8">
-            <h1 class="text-3xl font-bold text-teal-600">Gambar Ayam</h1>
-            <img src="#" alt="Gambar Ayam" class="w-1/2 h-auto mt-4 rounded-lg shadow-md">
-            <h1 class="text-2xl font-bold text-gray-700 mt-4">Ayam</h1>
+            <h1 class="text-3xl font-bold text-teal-600">Ayam</h1>
+            <img src="../assets/mengenalHuruf/ayam.jpg" alt="Gambar Ayam" class="w-1/2 h-auto mt-4 rounded-lg shadow-md">
         </div>
 
         <!-- Interactive letter 'A' with audio -->

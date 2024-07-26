@@ -8,7 +8,8 @@
                         class="w-24 h-24 rounded-full shadow-lg">
                 </div>
                 <h2 class="text-lg font-bold mb-2">Nama Ortu</h2>
-                <p class="text-gray-600 mb-4">Nama Orang Tua</p>
+                <p class="text-gray-600 mb-4">Nama Orang Tua
+                </p>
                 <h2 class="text-lg font-bold mb-2">Email</h2>
                 <p class="text-gray-600 mb-4">email@example.com</p>
                 <router-link to="/parent-tips"

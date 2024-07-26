@@ -18,6 +18,9 @@
         <RouterLink to="/lessons" class="mx-2 border-2 rounded-full flex items-center justify-center w-48 h-12 bg-white text-yellow-500 font-semibold hover:bg-yellow-100">
           Mulai Pelajaran
         </RouterLink>
+        <RouterLink to="/dashboard-admin" class="mx-2 border-2 rounded-full flex items-center justify-center w-48 h-12 bg-white text-yellow-500 font-semibold hover:bg-yellow-100">
+          testing doang
+        </RouterLink>
       </div>
     </div>
 
