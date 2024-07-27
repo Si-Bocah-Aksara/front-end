@@ -9,11 +9,10 @@ import LoginView from "../views/Login.vue";
 import MengenalHurufView from "../views/MengenalHuruf.vue";
 import BelajarMembacaView from "../views/BelajarMembaca.vue";
 import MengenalHurufAView from "../views/MengenalHurufA.vue";
-import MengenalHurufADetailGambarView from "../views/MengenalHurufADetailGambar.vue";
-import MengenalHurufAMiniGameView from "../views/MengenalHurufAMiniGame.vue";
+import MengenalHurufMiniGameView from "../views/MengenalHurufMiniGame.vue";
 import BelajarMembacaSubtemaHewanView from "../views/BelajarMembacaSubtemaHewan.vue";
-import BelajarMembacaSubtemaHewanSapiView from "../views/BelajarMembacaSubtemaHewanSapi.vue";
-import BelajarMembacaSubtemaHewanSapiDetailKalimatView from "../views/BelajarMembacaSubtemaHewanSapiDetailKalimat.vue";
+import BelajarMembacaSubtemaHewanMonyetView from "../views/BelajarMembacaSubtemaHewanMonyet.vue";
+import BelajarMembacaMiniGameSusunSukuKataView from "../views/BelajarMembacaMiniGameSusunSukuKata.vue";
 
 
 const routes = [
@@ -28,14 +27,17 @@ const routes = [
     // Halaman Mengenal Huruf
     { path: '/lessons/mengenal-huruf', component: MengenalHurufView },
     { path: '/lessons/mengenal-huruf/a', component: MengenalHurufAView },
-    { path: '/lessons/mengenal-huruf/a/detail-gambar-1' , component: MengenalHurufADetailGambarView },
-    { path: '/lessons/mengenal-huruf/a/mini-game', component: MengenalHurufAMiniGameView },
+
+    // Mini Games Mengenal Huruf
+    { path: '/lessons/mengenal-huruf/mini-game', component: MengenalHurufMiniGameView },
 
     // Halaman Belajar Membaca
     { path: '/lessons/belajar-membaca', component: BelajarMembacaView },
     { path: '/lessons/belajar-membaca/subtema-hewan', component: BelajarMembacaSubtemaHewanView },
-    { path: '/lessons/belajar-membaca/subtema-hewan/sapi', component: BelajarMembacaSubtemaHewanSapiView },
-    { path: '/lessons/belajar-membaca/subtema-hewan/sapi/detail-kalimat-1', component: BelajarMembacaSubtemaHewanSapiDetailKalimatView },
+    { path: '/lessons/belajar-membaca/subtema-hewan/monyet', component: BelajarMembacaSubtemaHewanMonyetView },
+
+    // Mini Games Belajar Membaca
+    { path: '/lessons/belajar-membaca/menyusun-suku-kata', component: BelajarMembacaMiniGameSusunSukuKataView },
 ];
 
 const router = createRouter({
