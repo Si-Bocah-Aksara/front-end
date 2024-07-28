@@ -1,5 +1,8 @@
 <template>
     <div class="flex flex-col items-center bg-gradient-to-b from-pink-200 to-indigo-200 h-screen p-6">
+        <div class="z-10 p-4">
+            <RouterLink to="/lessons/mengenal-huruf" class="text-blue-500 hover:underline text-lg">Back</RouterLink>
+        </div>
         <div class="text-center mb-24 mt-10">
             <h1 class="text-9xl font-extrabold text-teal-700 drop-shadow-lg animate-bounce">A a</h1>
         </div>

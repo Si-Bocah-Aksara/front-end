@@ -1,5 +1,8 @@
 <template>
     <div class="flex flex-col h-screen bg-gradient-to-r from-blue-200 to-teal-200 overflow-auto">
+        <div class="relative z-10 p-4">
+            <RouterLink to="/lessons" class="text-blue-500 hover:underline text-lg">Back</RouterLink>
+        </div>
         <!-- Judul -->
         <div class="text-center mb-8 mt-16">
             <h1 class="text-5xl font-extrabold text-gray-800 mb-4 drop-shadow-md">Mengenal Huruf</h1>

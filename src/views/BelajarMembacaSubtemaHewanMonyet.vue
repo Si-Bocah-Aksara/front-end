@@ -1,5 +1,8 @@
 <template>
     <div class="bg-yellow-50 min-h-screen py-8">
+        <div class="relative z-10 p-4">
+            <RouterLink to="/lessons/belajar-membaca/subtema-hewan" class="text-blue-500 hover:underline text-lg">Back</RouterLink>
+        </div>
         <div class="container mx-auto p-6 bg-white rounded-lg shadow-lg max-w-2xl">
             <h1 class="text-4xl font-bold text-center mb-8 text-yellow-700">Belajar Tentang Monyet</h1>
             <div class="flex flex-col items-center">

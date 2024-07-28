@@ -1,6 +1,8 @@
 <template>
-    <div
-        class="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 p-6">
+    <div class="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 p-6">
+        <div class="relative z-10 p-4">
+            <RouterLink to="/lessons/mengenal-huruf" class="text-blue-500 hover:underline text-lg">Back</RouterLink>
+        </div>
         <!-- Judul -->
         <h1 class="text-5xl font-bold text-white mb-6 animate-bounce">Mini Game Seleksi Huruf</h1>
 
