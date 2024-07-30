@@ -81,21 +81,21 @@
 </template>
 
 <script>
-import gambarPisang from '../assets/belajarMembaca/SubtemaMonyet/gambar_pisang.jpg';
-import gambarHutan from '../assets/belajarMembaca/SubtemaMonyet/gambar_hutan.jpg';
-import gambarMemanjat from '../assets/belajarMembaca/SubtemaMonyet/gambar_memanjat.jpg';
+// import gambarPisang from '../assets/belajarMembaca/SubtemaMonyet/gambar_pisang.jpg';
+// import gambarHutan from '../assets/belajarMembaca/SubtemaMonyet/gambar_hutan.jpg';
+// import gambarMemanjat from '../assets/belajarMembaca/SubtemaMonyet/gambar_memanjat.jpg';
 
-import audioKalimatMonyetSukaPisang from '../assets/belajarMembaca/SubtemaMonyet/audioKalimat_monyetSukaPisang.mp3';
-import audioKalimatHutanHabitatMonyet from '../assets/belajarMembaca/SubtemaMonyet/audioKalimat_hutanHabitatMonyet.mp3';
-import audioKalimatMonyetSedangMemanjat from '../assets/belajarMembaca/SubtemaMonyet/audioKalimat_monyetSedangMemanjat.mp3';
+// import audioKalimatMonyetSukaPisang from '../assets/belajarMembaca/SubtemaMonyet/audioKalimat_monyetSukaPisang.mp3';
+// import audioKalimatHutanHabitatMonyet from '../assets/belajarMembaca/SubtemaMonyet/audioKalimat_hutanHabitatMonyet.mp3';
+// import audioKalimatMonyetSedangMemanjat from '../assets/belajarMembaca/SubtemaMonyet/audioKalimat_monyetSedangMemanjat.mp3';
 
-import audioSukuKataMonyet from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_mo-nyet.mp3';
-import audioSukuKataSuka from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_su-ka.mp3';
-import audioSukuKataPisang from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_pi-sang.mp3';
-import audioSukuKataMemanjat from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_me-man-jat.mp3';
-import audioSukuKataHutan from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_hu-tan.mp3';
-import audioSukuKataHabitat from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_ha-bi-tat.mp3';
-import audioSukuKataSedang from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_se-dang.mp3';
+// import audioSukuKataMonyet from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_mo-nyet.mp3';
+// import audioSukuKataSuka from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_su-ka.mp3';
+// import audioSukuKataPisang from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_pi-sang.mp3';
+// import audioSukuKataMemanjat from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_me-man-jat.mp3';
+// import audioSukuKataHutan from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_hu-tan.mp3';
+// import audioSukuKataHabitat from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_ha-bi-tat.mp3';
+// import audioSukuKataSedang from '../assets/belajarMembaca/SubtemaMonyet/audioSukuKata_se-dang.mp3';
 
 export default {
     name: 'BelajarTentangMonyet',

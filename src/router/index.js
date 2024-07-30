@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
-import DashboardView from "../views/Dashboard.vue";
+//Halaman Depan
+import HomeView from "../views/Home.vue";
+
 import DashboardAdminView from "../views/DashboardAdmin.vue";
 import AboutView from "../views/About.vue";
 import ParentPageView from "../views/ParentPage.vue";
@@ -17,7 +19,7 @@ import BelajarMembacaMiniGameSusunSukuKataView from "../views/BelajarMembacaMini
 
 
 const routes = [
-    { path: '/', component: DashboardView },
+    { path: '/', component: HomeView },
     { path: '/about', component: AboutView },
     { path: '/parent-page', component: ParentPageView },
     { path: '/lessons', component: LessonsView },
