@@ -9,6 +9,7 @@ import LoginView from "../views/Login.vue";
 import MengenalHurufView from "../views/MengenalHuruf.vue";
 import BelajarMembacaView from "../views/BelajarMembaca.vue";
 import MengenalHurufAView from "../views/MengenalHurufA.vue";
+import MengenalHurufBView from "../views/MengenalHurufB.vue";
 import MengenalHurufMiniGameView from "../views/MengenalHurufMiniGame.vue";
 import BelajarMembacaSubtemaHewanView from "../views/BelajarMembacaSubtemaHewan.vue";
 import BelajarMembacaSubtemaHewanMonyetView from "../views/BelajarMembacaSubtemaHewanMonyet.vue";
@@ -27,6 +28,7 @@ const routes = [
     // Halaman Mengenal Huruf
     { path: '/lessons/mengenal-huruf', component: MengenalHurufView },
     { path: '/lessons/mengenal-huruf/a', component: MengenalHurufAView },
+    { path: '/lessons/mengenal-huruf/b', component: MengenalHurufBView },
 
     // Mini Games Mengenal Huruf
     { path: '/lessons/mengenal-huruf/mini-game', component: MengenalHurufMiniGameView },

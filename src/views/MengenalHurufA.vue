@@ -72,16 +72,16 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
 
-import ayamImage from "../assets/mengenalHuruf/ayam.jpg";
-import apelImage from "../assets/mengenalHuruf/apel.jpg";
-import apiImage from "../assets/mengenalHuruf/api.jpg";
-import awanImage from "../assets/mengenalHuruf/awan.jpg";
+import ayamImage from "../assets/mengenalHuruf/A/gambar_ayam.jpg";
+import apelImage from "../assets/mengenalHuruf/A/gambar_apel.jpg";
+import apiImage from "../assets/mengenalHuruf/A/gambar_api.jpg";
+import awanImage from "../assets/mengenalHuruf/A/gambar_awan.jpg";
 
-import audioAyam from "../assets/mengenalHuruf/audio_ayam.mp3";
-import audioApel from "../assets/mengenalHuruf/audio_apel.mp3";
-import audioApi from "../assets/mengenalHuruf/audio_api.mp3";
-import audioAwan from "../assets/mengenalHuruf/audio_awan.mp3";
-import audioHurufA from "../assets/mengenalHuruf/audioHuruf_a.mp3";
+import audioAyam from "../assets/mengenalHuruf/A/audio_ayam.mp3";
+import audioApel from "../assets/mengenalHuruf/A/audio_apel.mp3";
+import audioApi from "../assets/mengenalHuruf/A/audio_api.mp3";
+import audioAwan from "../assets/mengenalHuruf/A/audio_awan.mp3";
+import audioHurufA from "../assets/mengenalHuruf/A/audioHuruf_a.mp3";
 
 const isModalOpen = ref(false);
 const currentImage = ref("");
