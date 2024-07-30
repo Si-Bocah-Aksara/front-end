@@ -14,7 +14,7 @@ export default {
       }
     },
   },
-  variants: {},
+  variants: {extend: {},},
   plugins: [],
 }
 

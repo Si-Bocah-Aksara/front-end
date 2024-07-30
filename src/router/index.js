@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
-import DashboardView from "../views/Dashboard.vue";
+import HomeView from "../views/Home.vue";
+// import DashboardView from "../views/Dashboard.vue";
 import DashboardAdminView from "../views/DashboardAdmin.vue";
 import AboutView from "../views/About.vue";
 import ParentPageView from "../views/ParentPage.vue";
@@ -17,13 +18,13 @@ import BelajarMembacaMiniGameSusunSukuKataView from "../views/BelajarMembacaMini
 
 
 const routes = [
-    { path: '/', component: DashboardView },
+    { path: '/', name: 'Home', component: HomeView },
     { path: '/about', component: AboutView },
     { path: '/parent-page', component: ParentPageView },
     { path: '/lessons', component: LessonsView },
     { path: '/sign-in', component: SignInView },
-    { path: '/login', component: LoginView },
-    { path: '/dashboard-admin', component: DashboardAdminView },
+    { path: '/login', name: 'Login', component: LoginView },
+    { path: '/dashboard-admin', name: 'DashboardAdmin', component: DashboardAdminView, meta: { requiresAdmin: true } },
 
     // Halaman Mengenal Huruf
     { path: '/lessons/mengenal-huruf', component: MengenalHurufView },
@@ -47,4 +48,15 @@ const router = createRouter({
     routes
 });
 
+router.beforeEach((to, from, next) => {
+    if (to.matched.some(record => record.meta.requiresAdmin)) {
+      if (!store.getters.isAdmin) {
+        next({ name: 'Home' })
+      } else {
+        next()
+      }
+    } else {
+      next()
+    }
+  })
 export default router;
