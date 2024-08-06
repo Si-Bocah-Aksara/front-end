@@ -11,12 +11,12 @@
                     <img src="../assets/belajarMembaca/SubtemaMonyet/icon_monyet.jpg" alt="Monyet" class="object-cover w-24 h-24 rounded-full mb-2">
                     <h2 class="text-center text-lg font-semibold text-gray-700">🐒 Monyet</h2>
                 </RouterLink>
-                <RouterLink to="#"
+                <RouterLink to="/lessons/belajar-membaca/subtema-hewan/gajah"
                     class="w-48 h-48 rounded-full overflow-hidden shadow-lg transform hover:scale-110 transition-transform duration-300 ease-in-out bg-white hover:bg-yellow-100 flex flex-col items-center justify-center">
                     <img src="../assets/belajarMembaca/SubtemaGajah/icon_gajah.jpg" alt="Gajah" class="object-cover w-24 h-24 rounded-full mb-2">
                     <h2 class="text-center text-lg font-semibold text-gray-700">🐘 Gajah</h2>
                 </RouterLink>
-                <RouterLink to="#"
+                <RouterLink to="/lessons/belajar-membaca/subtema-hewan/jerapah"
                     class="w-48 h-48 rounded-full overflow-hidden shadow-lg transform hover:scale-110 transition-transform duration-300 ease-in-out bg-white hover:bg-yellow-100 flex flex-col items-center justify-center">
                     <img src="../assets/belajarMembaca/SubtemaJerapah/icon_Jerapah.jpg" alt="Jerapah" class="object-cover w-24 h-24 rounded-full mb-2">
                     <h2 class="text-center text-lg font-semibold text-gray-700">🦒 Jerapah</h2>

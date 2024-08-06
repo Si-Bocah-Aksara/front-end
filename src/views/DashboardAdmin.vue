@@ -33,7 +33,7 @@
     </div>
 </template>
 
-<!-- <script>
+<script>
 export default {
     data() {
         return {
@@ -51,26 +51,5 @@ export default {
         },
     },
 };
-</script> -->
-
-<script>
-import axios from 'axios';
-
-export default {
-  name: 'DashboardAdmin',
-  data() {
-    return {
-      users: []
-    }
-  },
-  async created() {
-    try {
-      const response = await axios.get('/api/users');
-      this.users = response.data;
-    } catch (error) {
-      console.error('Failed to fetch users', error);
-    }
-  }
-}
 </script>
 
