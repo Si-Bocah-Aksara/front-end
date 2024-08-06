@@ -39,7 +39,7 @@ import MengenalHurufMiniGameView from "../views/MengenalHurufMiniGameRandomize.v
 import BelajarMembacaSubtemaHewanView from "../views/BelajarMembacaSubtemaHewan.vue";
 import BelajarMembacaSubtemaHewanMonyetView from "../views/BelajarMembacaSubtemaHewanMonyet.vue";
 import BelajarMembacaMiniGameSusunSukuKataView from "../views/BelajarMembacaMiniGameSusunSukuKata.vue";
-
+import Scoreboard from "../views/Scoreboard.vue";
 
 const routes = [
     { path: '/', component: HomeView },
@@ -89,6 +89,9 @@ const routes = [
 
     // Mini Games Belajar Membaca
     { path: '/lessons/belajar-membaca/menyusun-suku-kata', component: BelajarMembacaMiniGameSusunSukuKataView },
+
+    //Highscore
+    {path: '/scoreboard', component:Scoreboard}
 ];
 
 const router = createRouter({
