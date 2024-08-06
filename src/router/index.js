@@ -12,12 +12,12 @@ import MengenalHurufAView from "../views/MengenalHurufA.vue";
 import MengenalHurufBView from "../views/MengenalHurufB.vue";
 import MengenalHurufCView from "../views/MengenalHurufC.vue";
 import MengenalHurufDView from "../views/MengenalHurufD.vue";
-// import MengenalHurufEView from "../views/MengenalHurufE.vue";
-// import MengenalHurufFView from "../views/MengenalHurufF.vue";
-// import MengenalHurufGView from "../views/MengenalHurufG.vue";
-// import MengenalHurufHView from "../views/MengenalHurufH.vue";
-// import MengenalHurufIView from "../views/MengenalHurufI.vue";
-// import MengenalHurufJView from "../views/MengenalHurufJ.vue";
+import MengenalHurufEView from "../views/MengenalHurufE.vue";
+import MengenalHurufFView from "../views/MengenalHurufF.vue";
+import MengenalHurufGView from "../views/MengenalHurufG.vue";
+import MengenalHurufHView from "../views/MengenalHurufH.vue";
+import MengenalHurufIView from "../views/MengenalHurufI.vue";
+import MengenalHurufJView from "../views/MengenalHurufJ.vue";
 // import MengenalHurufKView from "../views/MengenalHurufK.vue";
 // import MengenalHurufLView from "../views/MengenalHurufL.vue";
 // import MengenalHurufMView from "../views/MengenalHurufM.vue";
@@ -56,12 +56,12 @@ const routes = [
     { path: '/lessons/mengenal-huruf/b', component: MengenalHurufBView },
     { path: '/lessons/mengenal-huruf/c', component: MengenalHurufCView },
     { path: '/lessons/mengenal-huruf/d', component: MengenalHurufDView },
-    // { path: '/lessons/mengenal-huruf/e', component: MengenalHurufEView },
-    // { path: '/lessons/mengenal-huruf/f', component: MengenalHurufFView },
-    // { path: '/lessons/mengenal-huruf/g', component: MengenalHurufGView },
-    // { path: '/lessons/mengenal-huruf/h', component: MengenalHurufHView },
-    // { path: '/lessons/mengenal-huruf/i', component: MengenalHurufIView },
-    // { path: '/lessons/mengenal-huruf/j', component: MengenalHurufJView },
+    { path: '/lessons/mengenal-huruf/e', component: MengenalHurufEView },
+    { path: '/lessons/mengenal-huruf/f', component: MengenalHurufFView },
+    { path: '/lessons/mengenal-huruf/g', component: MengenalHurufGView },
+    { path: '/lessons/mengenal-huruf/h', component: MengenalHurufHView },
+    { path: '/lessons/mengenal-huruf/i', component: MengenalHurufIView },
+    { path: '/lessons/mengenal-huruf/j', component: MengenalHurufJView },
     // { path: '/lessons/mengenal-huruf/k', component: MengenalHurufKView },
     // { path: '/lessons/mengenal-huruf/l', component: MengenalHurufLView },
     // { path: '/lessons/mengenal-huruf/m', component: MengenalHurufMView },

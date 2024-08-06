@@ -1,0 +1,263 @@
+// Huruf E
+import ekorImage from "../assets/mengenalHuruf/E/gambar_ekor.jpg";
+import elangImage from "../assets/mengenalHuruf/E/gambar_elang.jpg";
+import emberImage from "../assets/mengenalHuruf/E/gambar_ember.jpg";
+import esImage from "../assets/mengenalHuruf/E/gambar_es.jpg";
+
+import audioEkor from "../assets/mengenalHuruf/E/audio_ekor.mp3";
+import audioElang from "../assets/mengenalHuruf/E/audio_elang.mp3";
+import audioEmber from "../assets/mengenalHuruf/E/audio_ember.mp3";
+import audioEs from "../assets/mengenalHuruf/E/audio_es.mp3";
+import audioHurufE from "../assets/mengenalHuruf/E/audioHuruf_e.mp3";
+
+// Huruf F
+import fajarImage from "../assets/mengenalHuruf/F/gambar_fajar.jpg";
+import fantaImage from "../assets/mengenalHuruf/F/gambar_fanta.jpg";
+import fosilImage from "../assets/mengenalHuruf/F/gambar_fosil.jpg";
+import fotoImage from "../assets/mengenalHuruf/F/gambar_foto.jpg";
+
+import audioFajar from "../assets/mengenalHuruf/F/audio_fajar.mp3";
+import audioFanta from "../assets/mengenalHuruf/F/audio_fanta.mp3";
+import audioFosil from "../assets/mengenalHuruf/F/audio_fosil.mp3";
+import audioFoto from "../assets/mengenalHuruf/F/audio_foto.mp3";
+import audioHurufF from "../assets/mengenalHuruf/F/audioHuruf_f.mp3";
+
+// Huruf G
+import gajahImage from "../assets/mengenalHuruf/G/gambar_gajah.jpg";
+import gelangImage from "../assets/mengenalHuruf/G/gambar_gelang.jpg";
+import gigiImage from "../assets/mengenalHuruf/G/gambar_gigi.jpg";
+import gulaImage from "../assets/mengenalHuruf/G/gambar_gula.jpg";
+
+import audioGajah from "../assets/mengenalHuruf/G/audio_gajah.mp3";
+import audioGelang from "../assets/mengenalHuruf/G/audio_gelang.mp3";
+import audioGigi from "../assets/mengenalHuruf/G/audio_gigi.mp3";
+import audioGula from "../assets/mengenalHuruf/G/audio_gula.mp3";
+import audioHurufG from "../assets/mengenalHuruf/G/audioHuruf_g.mp3";
+
+// Huruf H
+import hidungImage from "../assets/mengenalHuruf/H/gambar_hidung.jpg";
+import hitamImage from "../assets/mengenalHuruf/H/gambar_hitam.jpg";
+import hiuImage from "../assets/mengenalHuruf/H/gambar_hiu.jpg";
+import hujanImage from "../assets/mengenalHuruf/H/gambar_hujan.jpg";
+
+import audioHidung from "../assets/mengenalHuruf/H/audio_hidung.mp3";
+import audioHitam from "../assets/mengenalHuruf/H/audio_hitam.mp3";
+import audioHiu from "../assets/mengenalHuruf/H/audio_hiu.mp3";
+import audioHujan from "../assets/mengenalHuruf/H/audio_hujan.mp3";
+import audioHurufH from "../assets/mengenalHuruf/H/audioHuruf_h.mp3";
+
+// Huruf I
+import ibuImage from "../assets/mengenalHuruf/I/gambar_ibu.jpg";
+import iguanaImage from "../assets/mengenalHuruf/I/gambar_iguana.jpg";
+import ikanImage from "../assets/mengenalHuruf/I/gambar_ikan.jpg";
+import ikatImage from "../assets/mengenalHuruf/I/gambar_ikat.jpg";
+
+import audioIbu from "../assets/mengenalHuruf/I/audio_ibu.mp3";
+import audioIguana from "../assets/mengenalHuruf/I/audio_iguana.mp3";
+import audioIkan from "../assets/mengenalHuruf/I/audio_ikan.mp3";
+import audioIkat from "../assets/mengenalHuruf/I/audio_ikat.mp3";
+import audioHurufI from "../assets/mengenalHuruf/I/audioHuruf_i.mp3";
+
+// Huruf J
+import jamImage from "../assets/mengenalHuruf/J/gambar_jam.jpg";
+import jariImage from "../assets/mengenalHuruf/J/gambar_jari.jpg";
+import jerapahImage from "../assets/mengenalHuruf/J/gambar_jerapah.jpg";
+import jerukImage from "../assets/mengenalHuruf/J/gambar_jeruk.jpg";
+
+import audioJam from "../assets/mengenalHuruf/J/audio_jam.mp3";
+import audioJari from "../assets/mengenalHuruf/J/audio_jari.mp3";
+import audioJerapah from "../assets/mengenalHuruf/J/audio_jerapah.mp3";
+import audioJeruk from "../assets/mengenalHuruf/J/audio_jeruk.mp3";
+import audioHurufJ from "../assets/mengenalHuruf/J/audioHuruf_j.mp3";
+
+// Huruf K
+import kasurImage from "../assets/mengenalHuruf/K/gambar_kasur.jpg";
+import kucingImage from "../assets/mengenalHuruf/K/gambar_kucing.jpg";
+import kueImage from "../assets/mengenalHuruf/K/gambar_kue.jpg";
+import kupukupuImage from "../assets/mengenalHuruf/K/gambar_kupukupu.jpg";
+
+import audioKasur from "../assets/mengenalHuruf/K/audio_kasur.mp3";
+import audioKucing from "../assets/mengenalHuruf/K/audio_kucing.mp3";
+import audioKue from "../assets/mengenalHuruf/K/audio_kue.mp3";
+import audioKupukupu from "../assets/mengenalHuruf/K/audio_kupukupu.mp3";
+import audioHurufK from "../assets/mengenalHuruf/K/audioHuruf_k.mp3";
+
+// Huruf L
+import lalatImage from "../assets/mengenalHuruf/L/gambar_lalat.jpg";
+import lampuImage from "../assets/mengenalHuruf/L/gambar_lampu.jpg";
+import lariImage from "../assets/mengenalHuruf/L/gambar_lari.jpg";
+import lilinImage from "../assets/mengenalHuruf/L/gambar_lilin.jpg";
+
+import audioLalat from "../assets/mengenalHuruf/L/audio_lalat.mp3";
+import audioLampu from "../assets/mengenalHuruf/L/audio_lampu.mp3";
+import audioLari from "../assets/mengenalHuruf/L/audio_lari.mp3";
+import audioLilin from "../assets/mengenalHuruf/L/audio_lilin.mp3";
+import audioHurufL from "../assets/mengenalHuruf/L/audioHuruf_L.mp3";
+
+// Huruf M
+import manggaImage from "../assets/mengenalHuruf/M/gambar_mangga.jpg";
+import mataImage from "../assets/mengenalHuruf/M/gambar_mata.jpg";
+import mejaImage from "../assets/mengenalHuruf/M/gambar_meja.jpg";
+import merahImage from "../assets/mengenalHuruf/M/gambar_merah.jpg";
+
+import audioMangga from "../assets/mengenalHuruf/M/audio_mangga.mp3";
+import audioMata from "../assets/mengenalHuruf/M/audio_mata.mp3";
+import audioMeja from "../assets/mengenalHuruf/M/audio_meja.mp3";
+import audioMerah from "../assets/mengenalHuruf/M/audio_merah.mp3";
+import audioHurufM from "../assets/mengenalHuruf/M/audioHuruf_m.mp3";
+
+// Huruf N
+import nagaImage from "../assets/mengenalHuruf/N/gambar_naga.jpg";
+import nanasImage from "../assets/mengenalHuruf/N/gambar_nanas.jpg";
+import nasiImage from "../assets/mengenalHuruf/N/gambar_nasi.jpg";
+import nenekImage from "../assets/mengenalHuruf/N/gambar_nenek.jpg";
+
+import audioNaga from "../assets/mengenalHuruf/N/audio_naga.mp3";
+import audioNanas from "../assets/mengenalHuruf/N/audio_nanas.mp3";
+import audioNasi from "../assets/mengenalHuruf/N/audio_nasi.mp3";
+import audioNenek from "../assets/mengenalHuruf/N/audio_nenek.mp3";
+import audioHurufN from "../assets/mengenalHuruf/N/audioHuruf_n.mp3";
+
+// Huruf O
+import odolImage from "../assets/mengenalHuruf/O/gambar_odol.jpg";
+import ombakImage from "../assets/mengenalHuruf/O/gambar_ombak.jpg";
+import orangImage from "../assets/mengenalHuruf/O/gambar_orang.jpg";
+import otakImage from "../assets/mengenalHuruf/O/gambar_otak.jpg";
+
+import audioOdol from "../assets/mengenalHuruf/O/audio_odol.mp3";
+import audioOmbak from "../assets/mengenalHuruf/O/audio_ombak.mp3";
+import audioOrang from "../assets/mengenalHuruf/O/audio_orang.mp3";
+import audioOtak from "../assets/mengenalHuruf/O/audio_otak.mp3";
+import audioHurufO from "../assets/mengenalHuruf/O/audioHuruf_o.mp3";
+
+// Huruf P
+import pandaImage from "../assets/mengenalHuruf/P/gambar_panda.jpg";
+import pelangiImage from "../assets/mengenalHuruf/P/gambar_pelangi.jpg";
+import piringImage from "../assets/mengenalHuruf/P/gambar_piring.jpg";
+import pisangImage from "../assets/mengenalHuruf/P/gambar_pisang.jpg";
+
+import audioPanda from "../assets/mengenalHuruf/P/audio_panda.mp3";
+import audioPelangi from "../assets/mengenalHuruf/P/audio_pelangi.mp3";
+import audioPiring from "../assets/mengenalHuruf/P/audio_piring.mp3";
+import audioPisang from "../assets/mengenalHuruf/P/audio_pisang.mp3";
+import audioHurufP from "../assets/mengenalHuruf/P/audioHuruf_p.mp3";
+
+// Huruf Q
+import qatarImage from "../assets/mengenalHuruf/Q/gambar_qatar.jpg";
+import quizImage from "../assets/mengenalHuruf/Q/gambar_quiz.jpg";
+import quokkaImage from "../assets/mengenalHuruf/Q/gambar_quokka.jpg";
+import quranImage from "../assets/mengenalHuruf/Q/gambar_quran.jpg";
+
+import audioQatar from "../assets/mengenalHuruf/Q/audio_qatar.mp3";
+import audioQuiz from "../assets/mengenalHuruf/Q/audio_quiz.mp3";
+import audioQuokka from "../assets/mengenalHuruf/Q/audio_quokka.mp3";
+import audioQuran from "../assets/mengenalHuruf/Q/audio_quran.mp3";
+import audioHurufQ from "../assets/mengenalHuruf/Q/audioHuruf_q.mp3";
+
+// Huruf R
+import rambutImage from "../assets/mengenalHuruf/R/gambar_rambut.jpg";
+import rotiImage from "../assets/mengenalHuruf/R/gambar_roti.jpg";
+import rumahImage from "../assets/mengenalHuruf/R/gambar_rumah.jpg";
+import rusaImage from "../assets/mengenalHuruf/R/gambar_rusa.jpg";
+
+import audioRambut from "../assets/mengenalHuruf/R/audio_rambut.mp3";
+import audioRoti from "../assets/mengenalHuruf/R/audio_roti.mp3";
+import audioRumah from "../assets/mengenalHuruf/R/audio_rumah.mp3";
+import audioRusa from "../assets/mengenalHuruf/R/audio_rusa.mp3";
+import audioHurufR from "../assets/mengenalHuruf/R/audioHuruf_r.mp3";
+
+// Huruf S
+import saljuImage from "../assets/mengenalHuruf/S/gambar_salju.jpg";
+import sandalImage from "../assets/mengenalHuruf/S/gambar_sandal.jpg";
+import sapiImage from "../assets/mengenalHuruf/S/gambar_sapi.jpg";
+import sepedaImage from "../assets/mengenalHuruf/S/gambar_sepeda.jpg";
+
+import audioSalju from "../assets/mengenalHuruf/S/audio_salju.mp3";
+import audioSendal from "../assets/mengenalHuruf/S/audio_sendal.mp3";
+import audioSapi from "../assets/mengenalHuruf/S/audio_sapi.mp3";
+import audioSepeda from "../assets/mengenalHuruf/S/audio_sepeda.mp3";
+import audioHurufS from "../assets/mengenalHuruf/S/audioHuruf_s.mp3";
+
+// Huruf T
+import tanganImage from "../assets/mengenalHuruf/T/gambar_tangan.jpg";
+import tasImage from "../assets/mengenalHuruf/T/gambar_tas.jpg";
+import telurImage from "../assets/mengenalHuruf/T/gambar_telur.jpg";
+import tikusImage from "../assets/mengenalHuruf/T/gambar_tikus.jpg";
+
+import audioTangan from "../assets/mengenalHuruf/T/audio_tangan.mp3";
+import audioTas from "../assets/mengenalHuruf/T/audio_tas.mp3";
+import audioTelur from "../assets/mengenalHuruf/T/audio_telur.mp3";
+import audioTikus from "../assets/mengenalHuruf/T/audio_tikus.mp3";
+import audioHurufT from "../assets/mengenalHuruf/T/audioHuruf_t.mp3";
+
+// Huruf U
+import ubiImage from "../assets/mengenalHuruf/U/gambar_ubi.jpg";
+import udangImage from "../assets/mengenalHuruf/U/gambar_udang.jpg";
+import ularImage from "../assets/mengenalHuruf/U/gambar_ular.jpg";
+import untaImage from "../assets/mengenalHuruf/U/gambar_unta.jpg";
+
+import audioUbi from "../assets/mengenalHuruf/U/audio_ubi.mp3";
+import audioUdang from "../assets/mengenalHuruf/U/audio_udang.mp3";
+import audioUlar from "../assets/mengenalHuruf/U/audio_ular.mp3";
+import audioUnta from "../assets/mengenalHuruf/U/audio_unta.mp3";
+import audioHurufU from "../assets/mengenalHuruf/U/audioHuruf_u.mp3";
+
+// Huruf V
+import vasImage from "../assets/mengenalHuruf/V/gambar_vas.jpg";
+import vitaminImage from "../assets/mengenalHuruf/V/gambar_vitamin.jpg";
+import vokalImage from "../assets/mengenalHuruf/V/gambar_vokal.jpg";
+import vulkanImage from "../assets/mengenalHuruf/V/gambar_vulkan.jpg";
+
+import audioVas from "../assets/mengenalHuruf/V/audio_vas.mp3";
+import audioVitamin from "../assets/mengenalHuruf/V/audio_vitamin.mp3";
+import audioVokal from "../assets/mengenalHuruf/V/audio_vokal.mp3";
+import audioVulkan from "../assets/mengenalHuruf/V/audio_vulkan.mp3";
+import audioHurufV from "../assets/mengenalHuruf/V/audioHuruf_V.mp3";
+
+// Huruf W
+import wajahImage from "../assets/mengenalHuruf/W/gambar_wajah.jpg";
+import wajanImage from "../assets/mengenalHuruf/W/gambar_wajan.jpg";
+import wayangImage from "../assets/mengenalHuruf/W/gambar_wayang.jpg";
+import wortelImage from "../assets/mengenalHuruf/W/gambar_wortel.jpg";
+
+import audioWajah from "../assets/mengenalHuruf/W/audio_wajah.mp3";
+import audioWajan from "../assets/mengenalHuruf/W/audio_wajan.mp3";
+import audioWayang from "../assets/mengenalHuruf/W/audio_wayang.mp3";
+import audioWortel from "../assets/mengenalHuruf/W/audio_wortel.mp3";
+import audioHurufW from "../assets/mengenalHuruf/W/audioHuruf_w.mp3";
+
+// Huruf X
+import xeniaImage from "../assets/mengenalHuruf/X/gambar_xenia.jpg";
+import xilofonImage from "../assets/mengenalHuruf/X/gambar_xilofon.jpg";
+import xmanImage from "../assets/mengenalHuruf/X/gambar_xman.jpg";
+import xrayImage from "../assets/mengenalHuruf/X/gambar_xray.jpg";
+
+import audioXenia from "../assets/mengenalHuruf/X/audio_xenia.mp3";
+import audioXilofon from "../assets/mengenalHuruf/X/audio_xilofon.mp3";
+import audioXman from "../assets/mengenalHuruf/X/audio_xman.mp3";
+import audioXray from "../assets/mengenalHuruf/X/audio_xray.mp3";
+import audioHurufX from "../assets/mengenalHuruf/X/audioHuruf_x.mp3";
+
+//Huruf Y
+import yakinikuImage from "../assets/mengenalHuruf/Y/gambar_yakiniku.jpg";
+import yakImage from "../assets/mengenalHuruf/Y/gambar_yak.jpg";
+import yoghurtImage from "../assets/mengenalHuruf/Y/gambar_yoghurt.jpg";
+import yoyoImage from "../assets/mengenalHuruf/Y/gambar_yoyo.jpg";
+
+import audioYakiniku from "../assets/mengenalHuruf/Y/audio_yakiniku.mp3";
+import audioYak from "../assets/mengenalHuruf/Y/audio_yak.mp3";
+import audioYoghurt from "../assets/mengenalHuruf/Y/audio_yoghurt.mp3";
+import audioYoyo from "../assets/mengenalHuruf/Y/audio_yoyo.mp3";
+import audioHurufY from "../assets/mengenalHuruf/Y/audioHuruf_y.mp3";
+
+// Huruf Z
+import zaitunImage from "../assets/mengenalHuruf/Z/gambar_zaitun.jpg";
+import zebraImage from "../assets/mengenalHuruf/Z/gambar_zebra.jpg";
+import zimbabweImage from "../assets/mengenalHuruf/Z/gambar_zimbabwe.jpg";
+import zupaImage from "../assets/mengenalHuruf/Z/gambar_zupa.jpg";
+
+import audioZaitun from "../assets/mengenalHuruf/Z/audio_zaitun.mp3";
+import audioZebra from "../assets/mengenalHuruf/Z/audio_zebra.mp3";
+import audioZimbabwe from "../assets/mengenalHuruf/Z/audio_zimbabwe.mp3";
+import audioZupa from "../assets/mengenalHuruf/Z/audio_zupa.mp3";
+import audioHurufZ from "../assets/mengenalHuruf/Z/audioHuruf_z.mp3";

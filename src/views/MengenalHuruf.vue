@@ -9,6 +9,34 @@
             <p class="text-lg text-gray-600">Belajar huruf dengan cara yang menyenangkan!</p>
         </div>
 
+          <div class="text-center mb-8 mt-16">
+                <h1 class="text-5xl font-extrabold text-gray-800 mb-4 drop-shadow-md">🎮 Mini Games 🎮</h1>
+            </div>
+
+            <!-- Mini Games -->
+            <div id="mini-games" class="flex flex-wrap justify-center space-x-2 mt-8 mb-20">
+                <RouterLink to="/lessons/mengenal-huruf/mini-game">
+                    <button
+                        class=" mb-10 px-6 py-3 bg-yellow-500 text-white font-bold text-xl rounded-full shadow-md hover:bg-yellow-400 transition-transform duration-300 ease-in-out transform hover:scale-110 cursor-pointer">
+                        🔍 Seleksi Huruf
+                    </button>
+                </RouterLink>
+                <!-- <RouterLink disabled to="/lessons/mengenal-huruf/mini-game2">
+                    <button
+                        class="px-6 py-3 bg-green-500 text-white font-bold text-xl rounded-full shadow-md hover:bg-green-400 transition-transform duration-300 ease-in-out transform hover:scale-110 cursor-pointer">
+                        🎲 Game 2
+                    </button>
+                </RouterLink>
+                <RouterLink disabled to="/lessons/mengenal-huruf/mini-game3">
+                    <button
+                        class="px-6 py-3 bg-purple-500 text-white font-bold text-xl rounded-full shadow-md hover:bg-purple-400 transition-transform duration-300 ease-in-out transform hover:scale-110 cursor-pointer">
+                        🧩 Game 3
+                    </button>
+                </RouterLink> -->
+            </div>
+        </div>
+
+
         <!-- Container Huruf dan Mini Games -->
         <div class="container mx-auto px-5 flex-1 flex flex-col items-center justify-center space-y-8">
             <!-- Grid Huruf -->
@@ -119,33 +147,7 @@
                 </RouterLink>
             </div>
 
-            <div class="text-center mb-8 mt-16">
-                <h1 class="text-5xl font-extrabold text-gray-800 mb-4 drop-shadow-md">🎮 Mini Games 🎮</h1>
-            </div>
-
-            <!-- Mini Games -->
-            <div id="mini-games" class="flex flex-wrap justify-center space-x-4 mt-8 mb-20">
-                <RouterLink to="/lessons/mengenal-huruf/mini-game">
-                    <button
-                        class=" mb-10 px-6 py-3 bg-yellow-500 text-white font-bold text-xl rounded-full shadow-md hover:bg-yellow-400 transition-transform duration-300 ease-in-out transform hover:scale-110 cursor-pointer">
-                        🔍 Seleksi Huruf
-                    </button>
-                </RouterLink>
-                <!-- <RouterLink disabled to="/lessons/mengenal-huruf/mini-game2">
-                    <button
-                        class="px-6 py-3 bg-green-500 text-white font-bold text-xl rounded-full shadow-md hover:bg-green-400 transition-transform duration-300 ease-in-out transform hover:scale-110 cursor-pointer">
-                        🎲 Game 2
-                    </button>
-                </RouterLink>
-                <RouterLink disabled to="/lessons/mengenal-huruf/mini-game3">
-                    <button
-                        class="px-6 py-3 bg-purple-500 text-white font-bold text-xl rounded-full shadow-md hover:bg-purple-400 transition-transform duration-300 ease-in-out transform hover:scale-110 cursor-pointer">
-                        🧩 Game 3
-                    </button>
-                </RouterLink> -->
-            </div>
-        </div>
-
+          
 
     </div>
 </template>
