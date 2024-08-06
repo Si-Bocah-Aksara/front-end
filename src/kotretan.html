@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRUD Sederhana dengan localStorage</title>
+</head>
+<body>
+    <h1>Daftar Tugas</h1>
+
+    <input type="text" id="task" placeholder="Tambahkan tugas">
+    <button onclick="addTask()">Tambah</button>
+
+    <ul id="taskList"></ul>
+
+    <script>
+        // Fungsi untuk mendapatkan data dari localStorage atau membuat array kosong jika belum ada
+function getTasks() {
+  const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+  return tasks;
+}
+
+// Fungsi untuk menyimpan data ke localStorage
+function saveTasks(tasks) {
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+}
+
+// Fungsi untuk menampilkan semua tugas
+function renderTasks() {
+  const taskList = document.getElementById('taskList');
+  taskList.innerHTML = '';
+
+  const tasks = getTasks();
+  tasks.forEach((task, index) => {
+    const li = document.createElement('li');
+    li.textContent = task;
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Hapus';
+    deleteButton.onclick = () => deleteTask(index);
+    li.appendChild(deleteButton);
+    taskList.appendChild(li);
+  });
+}
+
+// Fungsi untuk menambahkan tugas baru
+function addTask() {
+  const taskInput = document.getElementById('task');
+  const task = taskInput.value;
+  if (task !== '') {
+    const tasks = getTasks();
+    tasks.push(task);
+    saveTasks(tasks);
+    renderTasks();
+    taskInput.value = '';
+  }
+}
+
+// Fungsi untuk menghapus tugas
+function deleteTask(index) {
+  const tasks = getTasks();
+  tasks.splice(index, 1);
+  saveTasks(tasks);
+  renderTasks();
+}
+
+// Memanggil fungsi renderTasks() saat halaman dimuat
+renderTasks();
+
+
+
+
+function saveScore(newScore) {
+  // Ambil data yang sudah ada atau buat array kosong jika belum ada
+  let scores = JSON.parse(localStorage.getItem('scoreboard')) || [];
+
+  // Tambahkan skor baru ke dalam array
+  scores.push(newScore);
+
+  // Simpan kembali data ke localStorage
+  localStorage.setItem('scoreboard', JSON.stringify(scores));
+}
+
+// Contoh penggunaan:
+const score3 = {
+  attempt: 1,
+  score: 85
+};
+saveScore(scor3);
+
+const score4 = {
+  attempt: 2,
+  score: 92
+};
+saveScore(score4);
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
