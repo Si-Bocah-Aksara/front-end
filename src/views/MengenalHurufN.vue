@@ -41,7 +41,7 @@
                         🔊
                     </button>
                     <button @click="nextImage" class="text-7xl font-bold text-yellow-700 cursor-pointer">
-                        N n
+                        N n 
                     </button>
                 </div>
             </div>

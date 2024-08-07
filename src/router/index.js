@@ -25,15 +25,15 @@ import MengenalHurufNView from "../views/MengenalHurufN.vue";
 import MengenalHurufOView from "../views/MengenalHurufO.vue";
 import MengenalHurufPView from "../views/MengenalHurufP.vue";
 import MengenalHurufQView from "../views/MengenalHurufQ.vue";
-// import MengenalHurufRView from "../views/MengenalHurufR.vue";
-// import MengenalHurufSView from "../views/MengenalHurufS.vue";
-// import MengenalHurufTView from "../views/MengenalHurufT.vue";
-// import MengenalHurufUView from "../views/MengenalHurufU.vue";
-// import MengenalHurufVView from "../views/MengenalHurufV.vue";
-// import MengenalHurufWView from "../views/MengenalHurufW.vue";
-// import MengenalHurufXView from "../views/MengenalHurufX.vue";
-// import MengenalHurufYView from "../views/MengenalHurufY.vue";
-// import MengenalHurufZView from "../views/MengenalHurufZ.vue";
+import MengenalHurufRView from "../views/MengenalHurufR.vue";
+import MengenalHurufSView from "../views/MengenalHurufS.vue";
+import MengenalHurufTView from "../views/MengenalHurufT.vue";
+import MengenalHurufUView from "../views/MengenalHurufU.vue";
+import MengenalHurufVView from "../views/MengenalHurufV.vue";
+import MengenalHurufWView from "../views/MengenalHurufW.vue";
+import MengenalHurufXView from "../views/MengenalHurufX.vue";
+import MengenalHurufYView from "../views/MengenalHurufY.vue";
+import MengenalHurufZView from "../views/MengenalHurufZ.vue";
 // import MengenalHurufMiniGameView from "../views/MengenalHurufMiniGame.vue";
 import MengenalHurufMiniGameView from "../views/MengenalHurufMiniGameRandomize.vue";
 import BelajarMembacaSubtemaHewanView from "../views/BelajarMembacaSubtemaHewan.vue";
@@ -69,15 +69,15 @@ const routes = [
     { path: '/lessons/mengenal-huruf/o', component: MengenalHurufOView },
     { path: '/lessons/mengenal-huruf/p', component: MengenalHurufPView },
     { path: '/lessons/mengenal-huruf/q', component: MengenalHurufQView },
-    // { path: '/lessons/mengenal-huruf/r', component: MengenalHurufRView },
-    // { path: '/lessons/mengenal-huruf/s', component: MengenalHurufSView },
-    // { path: '/lessons/mengenal-huruf/t', component: MengenalHurufTView },
-    // { path: '/lessons/mengenal-huruf/u', component: MengenalHurufUView },
-    // { path: '/lessons/mengenal-huruf/v', component: MengenalHurufVView },
-    // { path: '/lessons/mengenal-huruf/w', component: MengenalHurufWView },
-    // { path: '/lessons/mengenal-huruf/x', component: MengenalHurufXView },
-    // { path: '/lessons/mengenal-huruf/y', component: MengenalHurufYView },
-    // { path: '/lessons/mengenal-huruf/z', component: MengenalHurufZView },
+    { path: '/lessons/mengenal-huruf/r', component: MengenalHurufRView },
+    { path: '/lessons/mengenal-huruf/s', component: MengenalHurufSView },
+    { path: '/lessons/mengenal-huruf/t', component: MengenalHurufTView },
+    { path: '/lessons/mengenal-huruf/u', component: MengenalHurufUView },
+    { path: '/lessons/mengenal-huruf/v', component: MengenalHurufVView },
+    { path: '/lessons/mengenal-huruf/w', component: MengenalHurufWView },
+    { path: '/lessons/mengenal-huruf/x', component: MengenalHurufXView },
+    { path: '/lessons/mengenal-huruf/y', component: MengenalHurufYView },
+    { path: '/lessons/mengenal-huruf/z', component: MengenalHurufZView },
 
     // Mini Games Mengenal Huruf
     { path: '/lessons/mengenal-huruf/mini-game', component: MengenalHurufMiniGameView },
