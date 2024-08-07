@@ -42,11 +42,6 @@
             role: 'Penasihat'
           }
         ],
-        testimonials: [
-          { id: 1, text: 'Aplikasi ini sangat membantu anak saya belajar!', author: 'Ibu Budi' },
-          { id: 2, text: 'Desainnya menarik dan interaktif.', author: 'Anak SDN 1' },
-          // ... tambahkan lebih banyak testimoni
-        ]
       }
     }
   }
