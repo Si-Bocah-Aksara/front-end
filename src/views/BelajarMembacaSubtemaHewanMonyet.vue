@@ -32,7 +32,6 @@
             </div>
             <audio id="monyet-audio">
                 <source src="../assets/belajarMembaca/SubtemaMonyet/audio_monyet.mp3" type="audio/mpeg">
-                <source src="../assets/belajarMembaca/SubtemaMonyet/audio_monyet.ogg" type="audio/ogg">
             </audio>
         </div>
 
