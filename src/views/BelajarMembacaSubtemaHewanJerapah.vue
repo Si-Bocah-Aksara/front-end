@@ -151,8 +151,8 @@ export default {
     },
     methods: {
         async playAudio() {
-            const audio = document.getElementById('jerapah-audio');
             if (audio) {
+                const audio = document.getElementById('jerapah-audio');
                 try {
                     await audio.play();
                 } catch (error) {

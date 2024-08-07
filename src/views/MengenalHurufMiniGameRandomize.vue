@@ -1,8 +1,6 @@
 <template>
-    <div class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 p-6">
-        <div class="relative z-10 p-4 self-start">
-            <RouterLink to="/lessons/mengenal-huruf" @click="saveIfIncomplete" class="text-blue-500 hover:underline text-lg">Back</RouterLink>
-          </div>
+    <div
+        class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 p-6">
         <h1 class="text-5xl font-bold text-white mb-6 animate-bounce">Mini Game Seleksi Huruf</h1>
 
         <template v-if="currentQuestion">
@@ -11,13 +9,14 @@
             </h2>
 
             <div class="grid grid-cols-4 gap-6 mb-6">
-                <button v-for="(letter, index) in currentQuestion.options" :key="index"
-                    @click="selectLetter(letter)" :disabled="answered" :class="getButtonClass(letter)">
+                <button v-for="(letter, index) in currentQuestion.options" :key="index" @click="selectLetter(letter)"
+                    :disabled="answered" :class="getButtonClass(letter)">
                     {{ letter.char }}
                 </button>
             </div>
 
-            <div class="text-3xl font-bold mb-4" :class="{ 'text-green-500': correct, 'text-red-500': !correct && answered }">
+            <div class="text-3xl font-bold mb-4"
+                :class="{ 'text-green-500': correct, 'text-red-500': !correct && answered }">
                 {{ message }}
             </div>
 
@@ -42,14 +41,21 @@
             </button>
         </template>
 
-        <div class="w-full mt-6">
+        <!-- Tombol Kembali -->
+        <div class="text-center mb-4 mt-20">
+            <RouterLink to="/lessons/mengenal-huruf"
+                class="hover:underline text-lg mx-2 mb-2  border-2 rounded-full items-center justify-center w-48 h-12 bg-white text-blue-500 font-semibold hover:bg-blue-100 p-4 transform">
+                Back</RouterLink>
+        </div>
+
+        <!-- <div class="w-full mt-6">
             <h3 class="text-xl font-semibold text-white mb-2">History Skor:</h3>
             <ul>
                 <li v-for="(entry, index) in scoreHistory" :key="index" class="text-white">
                     Permainan {{ index + 1 }}: Benar - {{ entry.correct }}, Salah - {{ entry.incorrect }}
                 </li>
             </ul>
-        </div>
+        </div> -->
     </div>
 
 </template>
@@ -58,41 +64,41 @@
 import { ref, computed, onMounted } from 'vue';
 
 onMounted(() => {
-  initializeLocalStorage();
+    initializeLocalStorage();
 });
 
 function initializeLocalStorage() {
-  const key = 'highScoreBoard';
-  if (!localStorage.getItem(key)) {
-    localStorage.setItem(key, JSON.stringify([]));
-  }
+    const key = 'highScoreBoard';
+    if (!localStorage.getItem(key)) {
+        localStorage.setItem(key, JSON.stringify([]));
+    }
 }
 function generateUUID() {
-  // Menggunakan timestamp dan beberapa karakter acak
-  const timestamp = Date.now().toString(36);
-  const randomPart = Math.random().toString(36).substring(2, 8);
-  return timestamp + randomPart;
+    // Menggunakan timestamp dan beberapa karakter acak
+    const timestamp = Date.now().toString(36);
+    const randomPart = Math.random().toString(36).substring(2, 8);
+    return timestamp + randomPart;
 }
 const saveAttempt = (isDone) => {
-  const attemptData = {
-    idAttempt: crypto.randomUUID(),
-    lesson: "mengenalHuruf",
-    data: {
-      attempt: new Date().toISOString(),
-      isDone: isDone,
-      skor: {
-        benar: score.value.correct,
-        salah: score.value.incorrect
-      }
+    const attemptData = {
+        idAttempt: crypto.randomUUID(),
+        lesson: "mengenalHuruf",
+        data: {
+            attempt: new Date().toISOString(),
+            isDone: isDone,
+            skor: {
+                benar: score.value.correct,
+                salah: score.value.incorrect
+            }
+        }
+    };
+    if (score.value.correct === 0 && score.value.incorrect === 0) {
+        return; // Tidak menyimpan data jika belum ada jawaban
     }
-  };
-  if (score.value.correct === 0 && score.value.incorrect === 0) {
-    return; // Tidak menyimpan data jika belum ada jawaban
-  }
-  let attempts = JSON.parse(localStorage.getItem('highScoreBoard')) || [];
-  attempts.push(attemptData);
-  localStorage.setItem('highScoreBoard', JSON.stringify(attempts));
-  
+    let attempts = JSON.parse(localStorage.getItem('highScoreBoard')) || [];
+    attempts.push(attemptData);
+    localStorage.setItem('highScoreBoard', JSON.stringify(attempts));
+
 };
 
 interface Letter {
@@ -109,9 +115,9 @@ const questions = ref<Question[]>([]);
 const questionIndex = ref(0);
 
 const saveIfIncomplete = () => {
-  if (questionIndex.value < totalQuestions - 1) {
-    saveAttempt(false);
-  }
+    if (questionIndex.value < totalQuestions - 1) {
+        saveAttempt(false);
+    }
 };
 const currentQuestion = computed(() => questions.value[questionIndex.value]);
 const correct = ref(false);
@@ -125,32 +131,32 @@ const generateQuestion = (): Question => {
     const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     const letter = alphabet[Math.floor(Math.random() * alphabet.length)];
     const options: Letter[] = [];
-    
+
     // Jawaban random nya di generate satu sampai enam
     const correctCount = Math.floor(Math.random() * 6) + 1;
-    
+
     // nambahin jawaban yang bnr
     for (let i = 0; i < correctCount; i++) {
         options.push({ char: i % 2 === 0 ? letter.toUpperCase() : letter.toLowerCase(), isCorrect: true });
     }
-    
+
     // menuhin huruf yang salah
     while (options.length < 8) {
         const randomLetter = alphabet[Math.floor(Math.random() * alphabet.length)];
         if (randomLetter !== letter) {
-            options.push({ 
-                char: Math.random() < 0.5 ? randomLetter.toUpperCase() : randomLetter.toLowerCase(), 
-                isCorrect: false 
+            options.push({
+                char: Math.random() < 0.5 ? randomLetter.toUpperCase() : randomLetter.toLowerCase(),
+                isCorrect: false
             });
         }
     }
-    
+
     // pilihan ganda diacak
     for (let i = options.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [options[i], options[j]] = [options[j], options[i]];
     }
-    
+
     return { letter, options };
 };
 
@@ -189,10 +195,10 @@ const checkAnswer = () => {
         }
         // Trigger save attempt if all questions answered (last question)
         if (questionIndex.value === totalQuestions - 1) {
-        saveAttempt(true); // Save data on game completion
+            saveAttempt(true); // Save data on game completion
         }
     }
-    
+
 };
 
 const nextQuestion = () => {
@@ -226,9 +232,9 @@ const saveCurrentScore = () => {
     scoreHistory.value.push({ correct: score.value.correct, incorrect: score.value.incorrect });
 };
 window.addEventListener('beforeunload', () => {
-  if (questionIndex.value < totalQuestions - 1) {
-    saveAttempt(false, false); // Simpan data dengan status belum selesai
-  }
+    if (questionIndex.value < totalQuestions - 1) {
+        saveAttempt(false, false); // Simpan data dengan status belum selesai
+    }
 });
 
 const getButtonClass = (letter: Letter) => {
