@@ -9,7 +9,7 @@
           kami berusaha untuk memberikan pengalaman belajar yang menyenangkan bagi anak.
         </p>
   
-        <<h2 class="text-3xl font-bold text-center text-purple-800 mt-8 mb-4">Tim Kami</h2>
+        <h2 class="text-3xl font-bold text-center text-purple-800 mt-8 mb-4">Tim Kami</h2>
         <div class="flex flex-wrap justify-center mb-12">  <div v-for="member in teamMembers" :key="member.name" class="flex flex-col items-center m-4">  <img :src="member.image" alt="Profile Image" class="w-32 h-32 rounded-full border-4 border-blue-500 mb-4 shadow-lg" />
             <h3 class="text-2xl font-bold text-center text-green-800">{{ member.name }}</h3>  <p class="text-gray-700 text-center">{{ member.role }}</p>  </div>
         </div>
